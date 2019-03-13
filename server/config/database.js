@@ -1,3 +1,3 @@
 module.exports = {
-    mongoURI: "mongodb://kevin:abcd1234@ds147003.mlab.com:47003/mern_db_stradtkt"
+    mongoURI: "mongodb+srv://stradtkt:dbUserPassword@cluster0-d3bzz.mongodb.net/test?retryWrites=true"
 };
