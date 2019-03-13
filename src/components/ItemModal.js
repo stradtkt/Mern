@@ -12,6 +12,7 @@ import {
 import { connect } from 'react-redux';
 import { addItem } from '../actions/itemActions';
 import uuid from 'uuid';
+import mapStateToProps from "react-redux/es/connect/mapStateToProps";
 
 
 class ItemModal extends Component {
@@ -62,4 +63,8 @@ class ItemModal extends Component {
     }
 }
 
-export default connect()(ItemModal);
+const mapStateToProps = state => ({
+    item: state.item
+});
+
+export default connect(mapStateToProps, {addItem})(ItemModal);

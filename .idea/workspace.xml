@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="075d3820-3f61-4a3a-a6fd-239297c08239" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ItemModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/itemActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/itemActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ShoppingList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShoppingList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/itemReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/itemReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemModal.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/itemReducer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
@@ -80,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/ItemModal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="616">
+              <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -121,9 +116,9 @@
         <option value="$PROJECT_DIR$/src/actions/types.js" />
         <option value="$PROJECT_DIR$/src/components/ShoppingList.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/ItemModal.js" />
         <option value="$PROJECT_DIR$/src/actions/itemActions.js" />
         <option value="$PROJECT_DIR$/src/reducers/itemReducer.js" />
+        <option value="$PROJECT_DIR$/src/components/ItemModal.js" />
       </list>
     </option>
   </component>
@@ -213,12 +208,12 @@
       <updated>1552351864968</updated>
       <workItem from="1552351869224" duration="4551000" />
       <workItem from="1552427434737" duration="9728000" />
-      <workItem from="1552475955989" duration="7271000" />
+      <workItem from="1552475955989" duration="7402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21550000" />
+    <option name="totallyTimeSpent" value="21681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -358,16 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ItemModal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ShoppingList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -395,6 +380,16 @@
           <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ItemModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
