@@ -4,12 +4,13 @@ const parser = require('body-parser');
 const path = require('path');
 const app = express();
 
-app.use(parser.json());
+app.use(express.json());
 app.use('/api/items', require('./routes/api/items'));
 app.use('/api/users', require('./routes/api/users'));
 const db = require('./config/database').mongoURI;
 mongoose.connect(db, {
-    useNewUrlParser: true
+    useNewUrlParser: true,
+    useCreateIndex: true
 })
     .then(() => console.log('mongo connected'))
     .catch(err => console.log(err));
