@@ -1,13 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const parser = require('body-parser');
 const path = require('path');
+const config = require('config');
 const app = express();
 
 app.use(express.json());
 app.use('/api/items', require('./routes/api/items'));
 app.use('/api/users', require('./routes/api/users'));
-const db = require('./config/database').mongoURI;
+const db = config.get('mongoURI');
 mongoose.connect(db, {
     useNewUrlParser: true,
     useCreateIndex: true
